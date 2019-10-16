@@ -45,6 +45,8 @@ body {
     }
 }
 
+/* Task input Form */
+
 #task-input .container form {
     margin: 2rem 0;
     width: 100%;
@@ -87,6 +89,8 @@ body {
     background-color: rgba(255, 255, 255, 0.377);
 }
 
+/* Task list section */
+
 #task-list {
     margin-top: 1rem;
     min-height: 10rem;
@@ -122,7 +126,6 @@ body {
     color: rgb(139, 139, 139);
     width: 20%;
     text-align: center;
-    transition: all .5s ease-in-out;
     height: 100%;
 }
 
@@ -143,6 +146,16 @@ body {
 }
 
 #task-list .container ul li i:hover:nth-child(2) {
-    background-color: #35ecb5;
+    background-color: rgba(0, 175, 76, 0.473);
     color: #fff;
+}
+
+/* Check Task Toggle  */
+
+.background {
+    background-image: linear-gradient(to right, #04e285, #cfdfcdb6)!important;
+    color: #F76969 !important;
+    border: green 1px solid;
+    position: relative;
+    text-decoration: line-through;
 }
