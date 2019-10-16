@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #11998e88, #38ef7ea4);
+}
+
+body {
+    background: linear-gradient(to right, #11998e88, #38ef7ea4);
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: "Exo", sans-serif;
+    color: #fff;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: gradientBG 15s ease infinite;
+    animation: gradientBG 15s ease infinite;
+}
+
+@-webkit-keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#task-input .container form {
+    margin: 2rem 0;
+    width: 100%;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    align-self: left;
+}
+
+#task-input .container form label {
+    margin: 1rem 0;
+    display: block;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#task-input .container form input[type=text] {
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+#task-input .container form input[type=submit] {
+    padding: 1rem 3.5rem;
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    position: relative;
+    border: 1px solid #fff;
+    transition: .5s ease-in-out;
+}
+
+#task-input .container form input[type=submit]:hover {
+    border: 1px solid #fff;
+    border-radius: 0px 20px 0px;
+    background-color: rgba(255, 255, 255, 0.377);
+}
+
+#task-list {
+    margin-top: 1rem;
+    min-height: 10rem;
+}
+
+#task-list .container ul {
+    list-style: none;
+    border: 1px solid #bbbbbb;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1.5rem;
+    border-radius: 20px;
+}
+
+#task-list .container ul li {
+    margin: 1rem 0;
+    padding: 1.5rem 3.5rem;
+    display: block;
+    width: 100%;
+    position: relative;
+    background: #fff;
+    text-align: left;
+    border-radius: 5px 20px 5px;
+    color: gray;
+    font-weight: bold;
+}
+
+#task-list .container ul li i {
+    line-height: 4rem;
+    position: absolute;
+    color: rgb(139, 139, 139);
+    width: 20%;
+    text-align: center;
+    transition: all .5s ease-in-out;
+    height: 100%;
+}
+
+#task-list .container ul li i:first-child {
+    right: 0;
+    bottom: 0;
+    border-top-right-radius: 20px;
+}
+
+#task-list .container ul li i:nth-child(2) {
+    right: 20%;
+    bottom: 0;
+}
+
+#task-list .container ul li i:hover:first-child {
+    background: #f76969;
+    color: #fff;
+}
+
+#task-list .container ul li i:hover:nth-child(2) {
+    background-color: #35ecb5;
+    color: #fff;
+}

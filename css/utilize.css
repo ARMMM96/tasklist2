@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 0 7rem;
+    max-width: 920px;
+}
+
+input:focus {
+    outline-width: 0;
+}
